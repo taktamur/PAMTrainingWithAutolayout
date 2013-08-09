@@ -23,6 +23,8 @@
 		3B505B3317B528AC006C0D72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B505B0E17B528AC006C0D72 /* Foundation.framework */; };
 		3B505B3B17B528AC006C0D72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B505B3917B528AC006C0D72 /* InfoPlist.strings */; };
 		3B505B3E17B528AC006C0D72 /* PAMTrainingWithAutolayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B505B3D17B528AC006C0D72 /* PAMTrainingWithAutolayoutTests.m */; };
+		3B505B4A17B52A52006C0D72 /* PAMVariableHightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B505B4917B52A52006C0D72 /* PAMVariableHightCell.m */; };
+		3B505B4D17B52B29006C0D72 /* PAMVariableHightTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B505B4C17B52B29006C0D72 /* PAMVariableHightTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,10 @@
 		3B505B3A17B528AC006C0D72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3B505B3C17B528AC006C0D72 /* PAMTrainingWithAutolayoutTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAMTrainingWithAutolayoutTests.h; sourceTree = "<group>"; };
 		3B505B3D17B528AC006C0D72 /* PAMTrainingWithAutolayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAMTrainingWithAutolayoutTests.m; sourceTree = "<group>"; };
+		3B505B4817B52A52006C0D72 /* PAMVariableHightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAMVariableHightCell.h; sourceTree = "<group>"; };
+		3B505B4917B52A52006C0D72 /* PAMVariableHightCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAMVariableHightCell.m; sourceTree = "<group>"; };
+		3B505B4B17B52B29006C0D72 /* PAMVariableHightTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAMVariableHightTableViewController.h; sourceTree = "<group>"; };
+		3B505B4C17B52B29006C0D72 /* PAMVariableHightTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAMVariableHightTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,7 @@
 		3B505B1217B528AC006C0D72 /* PAMTrainingWithAutolayout */ = {
 			isa = PBXGroup;
 			children = (
+				3B505B4717B5292E006C0D72 /* VariableHight */,
 				3B505B1B17B528AC006C0D72 /* PAMAppDelegate.h */,
 				3B505B1C17B528AC006C0D72 /* PAMAppDelegate.m */,
 				3B505B2417B528AC006C0D72 /* MainStoryboard.storyboard */,
@@ -158,6 +165,17 @@
 				3B505B3917B528AC006C0D72 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B505B4717B5292E006C0D72 /* VariableHight */ = {
+			isa = PBXGroup;
+			children = (
+				3B505B4817B52A52006C0D72 /* PAMVariableHightCell.h */,
+				3B505B4917B52A52006C0D72 /* PAMVariableHightCell.m */,
+				3B505B4B17B52B29006C0D72 /* PAMVariableHightTableViewController.h */,
+				3B505B4C17B52B29006C0D72 /* PAMVariableHightTableViewController.m */,
+			);
+			path = VariableHight;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +292,8 @@
 				3B505B1917B528AC006C0D72 /* main.m in Sources */,
 				3B505B1D17B528AC006C0D72 /* PAMAppDelegate.m in Sources */,
 				3B505B2917B528AC006C0D72 /* PAMViewController.m in Sources */,
+				3B505B4A17B52A52006C0D72 /* PAMVariableHightCell.m in Sources */,
+				3B505B4D17B52B29006C0D72 /* PAMVariableHightTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
