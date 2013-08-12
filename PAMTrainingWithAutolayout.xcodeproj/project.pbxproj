@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B032B7817B90ABC0068D373 /* PAMTripleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B032B7717B90ABC0068D373 /* PAMTripleViewController.m */; };
 		3B505B0D17B528AC006C0D72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B505B0C17B528AC006C0D72 /* UIKit.framework */; };
 		3B505B0F17B528AC006C0D72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B505B0E17B528AC006C0D72 /* Foundation.framework */; };
 		3B505B1117B528AC006C0D72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B505B1017B528AC006C0D72 /* CoreGraphics.framework */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B032B7617B90ABC0068D373 /* PAMTripleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAMTripleViewController.h; sourceTree = "<group>"; };
+		3B032B7717B90ABC0068D373 /* PAMTripleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAMTripleViewController.m; sourceTree = "<group>"; };
 		3B505B0917B528AC006C0D72 /* PAMTrainingWithAutolayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PAMTrainingWithAutolayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B505B0C17B528AC006C0D72 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3B505B0E17B528AC006C0D72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -90,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B032B7517B90AA20068D373 /* tripleViews */ = {
+			isa = PBXGroup;
+			children = (
+				3B032B7617B90ABC0068D373 /* PAMTripleViewController.h */,
+				3B032B7717B90ABC0068D373 /* PAMTripleViewController.m */,
+			);
+			path = tripleViews;
+			sourceTree = "<group>";
+		};
 		3B505B0017B528AC006C0D72 = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +135,7 @@
 		3B505B1217B528AC006C0D72 /* PAMTrainingWithAutolayout */ = {
 			isa = PBXGroup;
 			children = (
+				3B032B7517B90AA20068D373 /* tripleViews */,
 				3B505B4717B5292E006C0D72 /* VariableHight */,
 				3B505B1B17B528AC006C0D72 /* PAMAppDelegate.h */,
 				3B505B1C17B528AC006C0D72 /* PAMAppDelegate.m */,
@@ -290,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B505B1917B528AC006C0D72 /* main.m in Sources */,
+				3B032B7817B90ABC0068D373 /* PAMTripleViewController.m in Sources */,
 				3B505B1D17B528AC006C0D72 /* PAMAppDelegate.m in Sources */,
 				3B505B2917B528AC006C0D72 /* PAMViewController.m in Sources */,
 				3B505B4A17B52A52006C0D72 /* PAMVariableHightCell.m in Sources */,
@@ -474,6 +488,7 @@
 				3B505B4317B528AC006C0D72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B505B4417B528AC006C0D72 /* Build configuration list for PBXNativeTarget "PAMTrainingWithAutolayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +497,7 @@
 				3B505B4617B528AC006C0D72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
